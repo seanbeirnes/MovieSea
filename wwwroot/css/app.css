@@ -13,7 +13,7 @@
 }
 
 html, body {
-    font-family: var(--cf-vody-font);
+    font-family: var(--cf-body-font);
     font-size: var(--cf-font-size);
     height: 100%;
 }
