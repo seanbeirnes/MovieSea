@@ -131,13 +131,13 @@ namespace MovieSea.Models
 		public int Id { get; set; }
 
 		[JsonPropertyName("name")]
-		public int Name { get; set; }
+		public string? Name { get; set; }
 
 		[JsonPropertyName("poster_path")]
-		public int PosterPath { get; set; }
+		public string? PosterPath { get; set; }
 
 		[JsonPropertyName("backdrop_path")]
-		public int BackdropPath { get; set; }
+		public string? BackdropPath { get; set; }
 	}
 
 }
